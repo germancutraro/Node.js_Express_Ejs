@@ -1,0 +1,13 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "A basic node.js and express server using templates like ejs",
+  "main": "app.js",
+  "author": "germancutraro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}

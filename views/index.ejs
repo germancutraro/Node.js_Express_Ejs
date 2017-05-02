@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="public/assets/main.css">
+</head>
+<body>
+  <ol>
+	<% languages.map(function(lang) { %>
+		<li>Is <%= lang.name + ' typed? ' + lang.typed %></li>
+	<% }); %>
+  </ol>
+</body>
+</html>
